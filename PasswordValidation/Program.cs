@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace PasswordValidation
 {
@@ -44,10 +44,10 @@ namespace PasswordValidation
             while (Console.ReadLine() != userName)
             {
                 Console.WriteLine("Sorry, you don't exist in our system! Please enter your username:");
-                Console.ReadLine();
-
+                
             }
 
+            Console.WriteLine("Password:");
             int loginAttempts = 0;
 
             do
@@ -67,53 +67,10 @@ namespace PasswordValidation
 
             } while (Console.ReadLine() != password);
 
-
-            
-
-
-            //for (int i = 0; i < 3; i++) 
-            //{
-
-            //    if (Console.ReadLine() != password)
-            //    {
-            //        loginAttempts++;
-            //        Console.WriteLine("Incorrect password, 2 attempts remain");
-            //    }
-
-            //    else if (Console.ReadLine() == password) 
-            //    {
-            //        Console.WriteLine($"Login successful! Welcome {userName}!");
-            //        break;
-            //    }
-
-            //    if (loginAttempts == 3)
-            //    {
-            //        Console.WriteLine("Sorry, too many incorrect password attempts. The program will now close.");
-            //    }
-            //}
-
-
-
-
-
-
-
         }
     }
 }
 
-
-//int loginAttempts = 0;
-//            for (int i = 0; i< 3; i++) {
-//                Console.WriteLine("Enter username:");
-//                string userName = Console.ReadLine();
-//Console.WriteLine("Enter your password:");
-//                string password = Console.ReadLine();
-
-//                if (userName !=)
-//            }
-
-//            string password = Console.ReadLine();
 
 
 
